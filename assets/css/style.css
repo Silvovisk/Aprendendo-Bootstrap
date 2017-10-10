@@ -1,0 +1,16 @@
+body{
+    background-color: lightcyan;
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (orientation: landscape){
+    body{
+
+        background-color: green;
+    }
+}
